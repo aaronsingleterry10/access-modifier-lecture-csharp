@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Amazon;
 
 namespace AccessModifier
 {
@@ -10,6 +10,8 @@ namespace AccessModifier
     {
         static void Main(string[] args)
         {
+            var customer = new Customer();
+            Amazon.RateCalculator calulator = new RateCalculator();
         }
     }
 }
